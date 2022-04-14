@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e50584b4-4c12-4caf-8948-d68e249e60f8" name="Changes" comment="" />
+    <list default="true" id="e50584b4-4c12-4caf-8948-d68e249e60f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStoreProject/BookStoreProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookStoreProject/BookStoreProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStoreProject/api_bookstore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookStoreProject/api_bookstore/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStoreProject/api_bookstore/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookStoreProject/api_bookstore/serializers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

@@ -8,18 +8,18 @@ from django.contrib.auth.models import User
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'username']
+        fields = ['username']
 
 
 class AuthorNameSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
 
         model = Author
-        fields = ['id', 'name']
+        fields = ['name']
 
 
 class AuthorSerializer(serializers.HyperlinkedModelSerializer):
-    added_by = UserSerializer()
+    added_by = UserSerializer(read_only=True)
 
     class Meta:
         model = Author
@@ -27,7 +27,8 @@ class AuthorSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class BookSerializer(serializers.HyperlinkedModelSerializer):
-    added_by = UserSerializer()
+    added_by = UserSerializer(read_only=True)
+    author = AuthorNameSerializer(read_only=True)
 
     class Meta:
         model = Book
